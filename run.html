@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Flight Search</title>
+    <link rel="stylesheet" href='styles.css'>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Get out of the Country ASAP!!!</h1>
+            <p>Feeling Spontaneous? Get out of the country as soon as possible </p>
+        </header>
+
+        <div class="search-card">
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="origin">Origin (IATA code)</label>
+                    <input type="text" id="origin" placeholder="e.g., JFK" value="JFK">
+                </div>
+                
+                <div class="input-group">
+                    <label for="destination">Destination (IATA code)</label>
+                    <input type="text" id="destination" placeholder="e.g., LHR" value="LAX">
+                </div>
+            </div>
+            <button id="searchButton">Search Available Flights</button>
+        </div>
+
+        <div id="results"></div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
